@@ -7,7 +7,7 @@ while True:
     s = socket.socket()  # Create a socket object
     host = socket.gethostname()  # Get local machine name
     port = 9999  # Reserve a port for your service.
-    s.connect(("localhost", port))
+    s.connect(("172.24.1.1", 5987))
     s.send(direction.encode("utf-8"))
     received = s.recv(1024)
     s.close  # Close the socket when done

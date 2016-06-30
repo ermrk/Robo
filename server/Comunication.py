@@ -25,7 +25,7 @@ class comunicationThread(threading.Thread):
 
     def run(self):
         print("Starting to listen")
-        HOST, PORT = "localhost", 9999
+        HOST, PORT = "", 5987
         server = socketserver.TCPServer((HOST, PORT), ComunicationTCPHandler)
         server.serve_forever()
 
