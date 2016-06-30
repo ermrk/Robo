@@ -1,4 +1,4 @@
-from server.Component import Component
+from .Component import Component
 
 
 class Fibonachi(Component):

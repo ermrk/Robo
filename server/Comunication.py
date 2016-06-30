@@ -4,7 +4,7 @@ from server import Components
 from server.Component import Component
 import socketserver
 
-from server.MotorControler import MovementState
+from .MotorControler import MovementState
 
 
 class Comunication(Component):

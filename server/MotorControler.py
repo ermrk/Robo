@@ -1,6 +1,5 @@
 from enum import Enum
-
-from server.Component import Component
+from .Component import Component
 
 
 class MovementState(Enum):

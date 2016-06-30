@@ -1,11 +1,10 @@
 import logging
+from .Comunication import Comunication
+from .Fibonachi import Fibonachi
+from .MotorControler import MotorControler
 
-from server.Comunication import Comunication
-from server.Fibonachi import Fibonachi
-from server.MotorControler import MotorControler
 
-
-class ComponentCreator():
+class ComponentCreator:
     def __init__(self):
         self.createComponents()
 
